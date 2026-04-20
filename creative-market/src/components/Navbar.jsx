@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="flex justify-between items-center">
       {/* 1. Logo Section */}
       <div>
         <img src={logo} alt="logo" />
