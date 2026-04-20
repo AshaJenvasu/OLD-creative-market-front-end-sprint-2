@@ -1,12 +1,16 @@
 import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-10 py-4 bg-black text-white">
       {/* 1. Logo Section */}
-      <div>
-        <img src={logo} alt="logo" className="h-7 w-auto cursor-pointer" />
-      </div>
+      <Link
+        to="/"
+        className="flex items-center cursor-pointer hover:opacity-80 transition-all"
+      >
+        <img src={logo} alt="logo" className="h-7 w-auto " />
+      </Link>
       {/* 2. Menu Links Section */}
       <ul className="md:flex item-center gap-4 text-xl font-medium">
         <li className="hover:text-gray-400 cursor-pointer transition-all">
