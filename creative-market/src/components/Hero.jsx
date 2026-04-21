@@ -3,9 +3,9 @@ import creativeText from "../assets/logos/hero.svg";
 
 const Hero = () => {
   return (
-    <section className=" ">
+    <section className="relative h-auto pb-12">
       {/* 1. Background Image (PNG) */}
-      <div className="absolute">
+      <div className="absolute flex w-full inset-0 ">
         <img
           src={bgImage}
           alt="Background"
