@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
 @import "tailwindcss";
 
 @keyframes scroll {
@@ -10,5 +11,5 @@
 }
 
 .animate-scroll {
-  animation: scroll 30s linear infinite;
+  animation: scroll 100s linear infinite;
 }
