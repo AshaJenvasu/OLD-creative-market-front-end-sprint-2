@@ -1,15 +1,19 @@
-import Hero from "../components/Hero";
-import ScrollingText from "../components/ScrollingText";
-import Highlight from "../components/Highlight";
-import Market from "../components/Market";
+import Navbar from "../components/00_Navbar";
+import Hero from "../components/01_Hero";
+import ScrollingText from "../components/02_ScrollingText";
+import Highlight from "../components/03_Highlight";
+import Market from "../components/04_Market";
+import ArtistLove from "../components/05_Artist-love";
 
 const Home = () => {
   return (
     <main>
+      <Navbar />
       <Hero />
       <ScrollingText />
       <Highlight />
       <Market />
+      <ArtistLove />
     </main>
   );
 };
