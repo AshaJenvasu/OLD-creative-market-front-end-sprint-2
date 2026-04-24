@@ -4,6 +4,7 @@ import ScrollingText from "../components/02_ScrollingText";
 import Highlight from "../components/03_Highlight";
 import Market from "../components/04_Market";
 import ArtistLove from "../components/05_Artist-love";
+import Footer from "../components/08_Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Highlight />
       <Market />
       <ArtistLove />
+      <Footer />
     </main>
   );
 };
