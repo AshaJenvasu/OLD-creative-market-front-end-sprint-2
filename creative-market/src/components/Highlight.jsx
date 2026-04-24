@@ -6,10 +6,10 @@ import shibaImg from "../assets/images/highlight-shiba.png";
 const Highlight = () => {
   return (
     <section className="bg-white w-full">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8  ">
+      <div className="max-w-7xl mx-auto w-auto px-7 grid grid-cols-1 py-6 md:grid-cols-2 gap-8  ">
         {/* ================= LEFT ================= */}
 
-        <div className="flex flex-col items-center  md:text-left w-full max-w-xl mx-auto gap-10 ">
+        <div className="flex flex-col items-center md:text-left w-full max-w-xl mx-auto gap-10 ">
           {/* 1. SVG Title & Underline */}
           <div className="flex flex-col items-center md:items-start w-full mt-15">
             <img src={spotlightSvg} alt="Artist Spotlight" className="w-full" />
@@ -50,7 +50,7 @@ const Highlight = () => {
         </div>
 
         {/* ================= RIGHT ================= */}
-        <div className="w-full">
+        <div className="hidden md:block w-full">
           <img
             src={shibaImg}
             alt="The Mosaic Shiba"
